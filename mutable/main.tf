@@ -3,4 +3,5 @@ module "shipping" {
   COMPONENT        = var.COMPONENT
   ENV              = var.ENV
   INSTANCES        = var.INSTANCES
+  APP_PORT         = 8080
 }
